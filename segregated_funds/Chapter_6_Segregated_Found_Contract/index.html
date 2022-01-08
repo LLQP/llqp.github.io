@@ -1,0 +1,2768 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="LLQP Knowledge Base and learning notes">
+      
+      
+        <meta name="author" content="LLQP">
+      
+      
+        <link rel="canonical" href="https://llqp.github.io/segregated_funds/Chapter_6_Segregated_Found_Contract/">
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.1">
+    
+    
+      
+        <title>Chapter 6 Segregated Found Contract - LLQP Prepare and Practice</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.23b6d78a.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chapter-6-segregated-found-contract" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="LLQP Prepare and Practice" class="md-header__button md-logo" aria-label="LLQP Prepare and Practice" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19 2-5 4.5v11l5-4.5V2M6.5 5C4.55 5 2.45 5.4 1 6.5v14.66c0 .25.25.5.5.5.1 0 .15-.07.25-.07 1.35-.65 3.3-1.09 4.75-1.09 1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.31 4.75 1.06.1.05.15.03.25.03.25 0 .5-.25.5-.5V6.5c-.6-.45-1.25-.75-2-1V19c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V6.5C10.55 5.4 8.45 5 6.5 5z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LLQP Prepare and Practice
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chapter 6 Segregated Found Contract
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../ethics/Chapter_1_Legal_Framework_Governing_Life_Insurance/" class="md-tabs__link">
+        Ethics and Professional Practice
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../taxation/Chapter_1_Taxation_Framework/" class="md-tabs__link">
+        Life Insurance Taxation Principles
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../life/Chapter_1_Introduction_to_Life_Insurance_Module/" class="md-tabs__link">
+        Life Insurance
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../accident/Chapter_1_Financial_Protection_Provided_by_Accident_and_Sickness_Insurance/" class="md-tabs__link">
+        Accident and Sickness Insurance
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Chapter_1_Investment_and_Savings/" class="md-tabs__link md-tabs__link--active">
+        Segregated Funds and Annuities
+      </a>
+    </li>
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="LLQP Prepare and Practice" class="md-nav__button md-logo" aria-label="LLQP Prepare and Practice" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m19 2-5 4.5v11l5-4.5V2M6.5 5C4.55 5 2.45 5.4 1 6.5v14.66c0 .25.25.5.5.5.1 0 .15-.07.25-.07 1.35-.65 3.3-1.09 4.75-1.09 1.95 0 4.05.4 5.5 1.5 1.35-.85 3.8-1.5 5.5-1.5 1.65 0 3.35.31 4.75 1.06.1.05.15.03.25.03.25 0 .5-.25.5-.5V6.5c-.6-.45-1.25-.75-2-1V19c-1.1-.35-2.3-.5-3.5-.5-1.7 0-4.15.65-5.5 1.5V6.5C10.55 5.4 8.45 5 6.5 5z"/></svg>
+
+    </a>
+    LLQP Prepare and Practice
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Ethics and Professional Practice
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Ethics and Professional Practice" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Ethics and Professional Practice
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          Study Notes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Study Notes" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Study Notes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ethics/Chapter_1_Legal_Framework_Governing_Life_Insurance/" class="md-nav__link">
+        Chapter 1 Legal Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ethics/Chapter_2_Insurance_Policy_Provisions/" class="md-nav__link">
+        Chapter 2 Insurance Policy Provisions
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ethics/Chapter_3_Life_Insurance_Accident_and_Sickness/" class="md-nav__link">
+        Chapter 3 Life Insurance Accident and Sickness Insurance and Annuity Claims
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ethics/Chapter_4_Rules_and_Principles_Governing/" class="md-nav__link">
+        Chapter 4 Rules and Principles
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Bootcamp
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Bootcamp" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Bootcamp
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ethics/bootcamp_day1/" class="md-nav__link">
+        Day One
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ethics/bootcamp_day2/" class="md-nav__link">
+        Day Two
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Life Insurance Taxation Principles
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Life Insurance Taxation Principles" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Life Insurance Taxation Principles
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          Study Notes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Study Notes" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Study Notes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../taxation/Chapter_1_Taxation_Framework/" class="md-nav__link">
+        Chapter 1 Taxation Framework
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../taxation/Chapter_2_Investment_Income/" class="md-nav__link">
+        Chapter 2 Investment Income
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../taxation/Chapter_3_Taxation_and_Insurance/" class="md-nav__link">
+        Chapter 3 Taxation and Insurance
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../taxation/Chapter_4_Tax_Strategies_Using_Life_Insurance/" class="md-nav__link">
+        Chapter 4 Tax Strategies Using Life Insurance
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Life Insurance
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Life Insurance" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Life Insurance
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_1" type="checkbox" id="__nav_4_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4_1">
+          Study Notes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Study Notes" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          Study Notes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/Chapter_1_Introduction_to_Life_Insurance_Module/" class="md-nav__link">
+        Chapter 1 Introduction to Life Insurance Module
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/Chapter_2_Term_Life_Insurance/" class="md-nav__link">
+        Chapter 2 Term Life Insurance
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/Chapter_3_Whole_Life_and_Term-100_Insurance/" class="md-nav__link">
+        Chapter 3 Whole Life and Term-100 Insurance
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/Chapter_4_Universal_Life_Insurance/" class="md-nav__link">
+        Chapter 4 Universal Life Insurance
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/Chapter_5_Riders_and_Supplementary_Benefits/" class="md-nav__link">
+        Chapter 5 Riders and Supplementary Benefits
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/Chapter_6_Group_Life_Insurance/" class="md-nav__link">
+        Chapter 6 Group Life Insurance
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/Chapter_7_Taxation_of_Life_Insurance_and_Tax_Strategies/" class="md-nav__link">
+        Chapter 7 Taxation of Life Insurance and Tax Strategies
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/Chapter_8_Business_Life_Insurance/" class="md-nav__link">
+        Chapter 8 Business Life Insurance
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/Chapter_9_Application_and_Underwriting/" class="md-nav__link">
+        Chapter 9 Application and Underwriting
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/Chapter_10_Assessing_the_Clients_Situation/" class="md-nav__link">
+        Chapter 10 Assessing the Clients Situation.md
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/Chapter_11_Recommending_An_Insurance_Policy/" class="md-nav__link">
+        Chapter 11 Recommending An Insurance Policy
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/Chapter_12_.Ongoing_Service/" class="md-nav__link">
+        Chapter 12 Ongoing Service
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_4_2">
+          Bootcamp
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Bootcamp" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Bootcamp
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/bootcamp_day1/" class="md-nav__link">
+        Day One
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../life/bootcamp_day2/" class="md-nav__link">
+        Day Two
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Accident and Sickness Insurance
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Accident and Sickness Insurance" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Accident and Sickness Insurance
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_1" type="checkbox" id="__nav_5_1" >
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5_1">
+          Study Notes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Study Notes" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_1">
+          <span class="md-nav__icon md-icon"></span>
+          Study Notes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../accident/Chapter_1_Financial_Protection_Provided_by_Accident_and_Sickness_Insurance/" class="md-nav__link">
+        Chapter 1 Financial Protection Provided by Accident and Sickness Insurance
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../accident/Chapter_2_Insurance_to_Protect_Income/" class="md-nav__link">
+        Chapter 2 Insurance to Protect Income
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../accident/Chapter_3_Insurance_to_Protect_Assets/" class="md-nav__link">
+        Chapter 3 Insurance to Protect Assets
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../accident/Chapter_4_Insurance_to_Protect_Savings/" class="md-nav__link">
+        Chapter 4 Insurance to Protect Savings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../accident/Chapter_5_Insurance_to_Protect_Businesses/" class="md-nav__link">
+        Chapter 5 Insurance to Protect Businesses
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../accident/Chapter_6_Client_Profile/" class="md-nav__link">
+        Chapter 6 Client Profile
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../accident/Chapter_7_Insurance_Recommendation_Contract_and_Service_Needs/" class="md-nav__link">
+        Chapter 7 Insurance Recommendation Contract and Service Needs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../accident/Chapter_8_Group_Plan_Specifics/" class="md-nav__link">
+        Chapter 8 Group Plan Specifics
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_2" type="checkbox" id="__nav_5_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_5_2">
+          Bootcamp
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Bootcamp" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Bootcamp
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../accident/bootcamp_day1/" class="md-nav__link">
+        Day One
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../accident/bootcamp_day2/" class="md-nav__link">
+        Day Two
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_6">
+          Segregated Funds and Annuities
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Segregated Funds and Annuities" data-md-level="1">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Segregated Funds and Annuities
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_1" type="checkbox" id="__nav_6_1" checked>
+      
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_6_1">
+          Study Notes
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Study Notes" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_1">
+          <span class="md-nav__icon md-icon"></span>
+          Study Notes
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Chapter_1_Investment_and_Savings/" class="md-nav__link">
+        Chapter 1 Investment and Savings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Chapter_2_Segregated_Funds/" class="md-nav__link">
+        Chapter 2 Segregated Funds
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Chapter_3_Annuities/" class="md-nav__link">
+        Chapter 3 Annuities
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Chapter_4_Investor_Profile/" class="md-nav__link">
+        Chapter 4 Investor Profile
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Chapter_5_Segregated_Funds_and_Annuity/" class="md-nav__link">
+        Chapter 5 Segregated Funds and Annuity
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Chapter 6 Segregated Found Contract
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Chapter 6 Segregated Found Contract
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#61-contracts" class="md-nav__link">
+    6.1 Contracts
+  </a>
+  
+    <nav class="md-nav" aria-label="6.1 Contracts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#611-individual-variable-insurance-contract-ivic" class="md-nav__link">
+    6.1.1 Individual variable insurance contract (IVIC)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62-investor-requirements" class="md-nav__link">
+    6.2 Investor Requirements
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2 Investor Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#621-application-form" class="md-nav__link">
+    6.2.1 Application form
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2.1 Application form">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#6211-registered-or-non-registered-form" class="md-nav__link">
+    6.2.1.1 Registered or non-registered form
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6212-naming-annuitant-and-beneficiary" class="md-nav__link">
+    6.2.1.2 Naming annuitant and beneficiary
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6213-rider-election-form" class="md-nav__link">
+    6.2.1.3 Rider election form
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6214-client-identification-requirements" class="md-nav__link">
+    6.2.1.4 Client identification requirements
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#622-funding-the-account" class="md-nav__link">
+    6.2.2 Funding the account
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#63-agent-requirements" class="md-nav__link">
+    6.3 Agent Requirements
+  </a>
+  
+    <nav class="md-nav" aria-label="6.3 Agent Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#631-meeting-carrier-expectations" class="md-nav__link">
+    6.3.1 Meeting carrier expectations
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#632-document-delivery" class="md-nav__link">
+    6.3.2 Document delivery
+  </a>
+  
+    <nav class="md-nav" aria-label="6.3.2 Document delivery">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#6321-information-folder" class="md-nav__link">
+    6.3.2.1 Information folder
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6322-fund-facts" class="md-nav__link">
+    6.3.2.2 Fund Facts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6323-confirmation" class="md-nav__link">
+    6.3.2.3 Confirmation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#633-ongoing-service-requirements" class="md-nav__link">
+    6.3.3 Ongoing service requirements
+  </a>
+  
+    <nav class="md-nav" aria-label="6.3.3 Ongoing service requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#6331-post-sale-follow-up" class="md-nav__link">
+    6.3.3.1 Post-sale follow up
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6332-need-to-monitor-client" class="md-nav__link">
+    6.3.3.2 Need to monitor client
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6333-need-to-monitor-product" class="md-nav__link">
+    6.3.3.3 Need to monitor product
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6334-annual-review" class="md-nav__link">
+    6.3.3.4 Annual review
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6335-handling-deposits" class="md-nav__link">
+    6.3.3.5 Handling deposits
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6336-making-a-fund-switch" class="md-nav__link">
+    6.3.3.6 Making a fund switch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6337-resets" class="md-nav__link">
+    6.3.3.7 Resets
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6338-change-of-beneficiary" class="md-nav__link">
+    6.3.3.8 Change of beneficiary
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6339-renewing-a-contract" class="md-nav__link">
+    6.3.3.9 Renewing a contract
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#64-claims" class="md-nav__link">
+    6.4 Claims
+  </a>
+  
+    <nav class="md-nav" aria-label="6.4 Claims">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#641-claims-process" class="md-nav__link">
+    6.4.1 Claims process
+  </a>
+  
+    <nav class="md-nav" aria-label="6.4.1 Claims process">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#6411-claim-forms" class="md-nav__link">
+    6.4.1.1 Claim forms
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6421-maturity-claims-and-death-claims" class="md-nav__link">
+    6.4.2.1 Maturity claims and death claims
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6422-termination-and-surrender-claims" class="md-nav__link">
+    6.4.2.2 Termination and surrender claims
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6423-withdrawal-form" class="md-nav__link">
+    6.4.2.3 Withdrawal form
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6424-power-of-attorney-poa-claim" class="md-nav__link">
+    6.4.2.4 Power of attorney (POA) claim
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#643-factors-affecting-claims" class="md-nav__link">
+    6.4.3 Factors affecting claims
+  </a>
+  
+    <nav class="md-nav" aria-label="6.4.3 Factors affecting claims">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#6431-maturity-and-death-benefit-guarantee" class="md-nav__link">
+    6.4.3.1 Maturity and death benefit guarantee
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6432-allocations" class="md-nav__link">
+    6.4.3.2 Allocations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Chapter_7_Annuity_Contract/" class="md-nav__link">
+        Chapter 7 Annuity Contract
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Chapter_8_Group_Retirement_and_Investment_Plans/" class="md-nav__link">
+        Chapter 8 Group Retirement and Investment Plans
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6_2" type="checkbox" id="__nav_6_2" >
+      
+      
+      
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_6_2">
+          Bootcamp
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Bootcamp" data-md-level="2">
+        <label class="md-nav__title" for="__nav_6_2">
+          <span class="md-nav__icon md-icon"></span>
+          Bootcamp
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bootcamp_day1/" class="md-nav__link">
+        Day One
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bootcamp_day2/" class="md-nav__link">
+        Day Two
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#61-contracts" class="md-nav__link">
+    6.1 Contracts
+  </a>
+  
+    <nav class="md-nav" aria-label="6.1 Contracts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#611-individual-variable-insurance-contract-ivic" class="md-nav__link">
+    6.1.1 Individual variable insurance contract (IVIC)
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#62-investor-requirements" class="md-nav__link">
+    6.2 Investor Requirements
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2 Investor Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#621-application-form" class="md-nav__link">
+    6.2.1 Application form
+  </a>
+  
+    <nav class="md-nav" aria-label="6.2.1 Application form">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#6211-registered-or-non-registered-form" class="md-nav__link">
+    6.2.1.1 Registered or non-registered form
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6212-naming-annuitant-and-beneficiary" class="md-nav__link">
+    6.2.1.2 Naming annuitant and beneficiary
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6213-rider-election-form" class="md-nav__link">
+    6.2.1.3 Rider election form
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6214-client-identification-requirements" class="md-nav__link">
+    6.2.1.4 Client identification requirements
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#622-funding-the-account" class="md-nav__link">
+    6.2.2 Funding the account
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#63-agent-requirements" class="md-nav__link">
+    6.3 Agent Requirements
+  </a>
+  
+    <nav class="md-nav" aria-label="6.3 Agent Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#631-meeting-carrier-expectations" class="md-nav__link">
+    6.3.1 Meeting carrier expectations
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#632-document-delivery" class="md-nav__link">
+    6.3.2 Document delivery
+  </a>
+  
+    <nav class="md-nav" aria-label="6.3.2 Document delivery">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#6321-information-folder" class="md-nav__link">
+    6.3.2.1 Information folder
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6322-fund-facts" class="md-nav__link">
+    6.3.2.2 Fund Facts
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6323-confirmation" class="md-nav__link">
+    6.3.2.3 Confirmation
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#633-ongoing-service-requirements" class="md-nav__link">
+    6.3.3 Ongoing service requirements
+  </a>
+  
+    <nav class="md-nav" aria-label="6.3.3 Ongoing service requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#6331-post-sale-follow-up" class="md-nav__link">
+    6.3.3.1 Post-sale follow up
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6332-need-to-monitor-client" class="md-nav__link">
+    6.3.3.2 Need to monitor client
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6333-need-to-monitor-product" class="md-nav__link">
+    6.3.3.3 Need to monitor product
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6334-annual-review" class="md-nav__link">
+    6.3.3.4 Annual review
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6335-handling-deposits" class="md-nav__link">
+    6.3.3.5 Handling deposits
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6336-making-a-fund-switch" class="md-nav__link">
+    6.3.3.6 Making a fund switch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6337-resets" class="md-nav__link">
+    6.3.3.7 Resets
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6338-change-of-beneficiary" class="md-nav__link">
+    6.3.3.8 Change of beneficiary
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6339-renewing-a-contract" class="md-nav__link">
+    6.3.3.9 Renewing a contract
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#64-claims" class="md-nav__link">
+    6.4 Claims
+  </a>
+  
+    <nav class="md-nav" aria-label="6.4 Claims">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#641-claims-process" class="md-nav__link">
+    6.4.1 Claims process
+  </a>
+  
+    <nav class="md-nav" aria-label="6.4.1 Claims process">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#6411-claim-forms" class="md-nav__link">
+    6.4.1.1 Claim forms
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6421-maturity-claims-and-death-claims" class="md-nav__link">
+    6.4.2.1 Maturity claims and death claims
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6422-termination-and-surrender-claims" class="md-nav__link">
+    6.4.2.2 Termination and surrender claims
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6423-withdrawal-form" class="md-nav__link">
+    6.4.2.3 Withdrawal form
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6424-power-of-attorney-poa-claim" class="md-nav__link">
+    6.4.2.4 Power of attorney (POA) claim
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#643-factors-affecting-claims" class="md-nav__link">
+    6.4.3 Factors affecting claims
+  </a>
+  
+    <nav class="md-nav" aria-label="6.4.3 Factors affecting claims">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#6431-maturity-and-death-benefit-guarantee" class="md-nav__link">
+    6.4.3.1 Maturity and death benefit guarantee
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6432-allocations" class="md-nav__link">
+    6.4.3.2 Allocations
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+<h1 id="chapter-6-segregated-found-contract">CHAPTER 6: Segregated Found Contract<a class="headerlink" href="#chapter-6-segregated-found-contract" title="Permanent link">&para;</a></h1>
+<h2 id="61-contracts">6.1 Contracts<a class="headerlink" href="#61-contracts" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Contracts are legal documents that bind their parties to specified terms and conditions.</li>
+<li>The contract between an insurer and an investor for a segregated fund is an individual variable insurance contract (IVIC).</li>
+</ul>
+<h3 id="611-individual-variable-insurance-contract-ivic">6.1.1 Individual variable insurance contract (IVIC)<a class="headerlink" href="#611-individual-variable-insurance-contract-ivic" title="Permanent link">&para;</a></h3>
+<ul>
+<li>The IVIC spells out how to buy, terminate, withdraw, and receive the benefits from the segregated fund investment.</li>
+<li>It is intended to reveal what the investor is buying and reinforce the risk associated with the investment.</li>
+<li>The risk of investing is disclosed on the face page, or cover, of the contract with wording to the effect of “The contract holder assumes the risk of investment and any amount allocated to a segregated fund may increase or decrease in value.”</li>
+<li>The insurer makes these commitments to the investor:<ul>
+<li>Guarantees and benefits;</li>
+<li>How to determine the value of benefits related to the market value of the fund and their surrender value;</li>
+<li>Percentage of premium allocated to provide the benefits related to the market value of the fund;</li>
+<li>When the value of the fund and benefits are determined;</li>
+<li>Fees and charges, or how fees and charges are calculated;</li>
+<li>Right to make changes to the contract.</li>
+</ul>
+</li>
+<li>The contract states what information forms part of the contract. It includes:<ul>
+<li>Identification of the IVIC and the segregated fund;</li>
+<li>Management expense ratio (MER);</li>
+<li>Risk disclosure;</li>
+<li>Fees and expenses;</li>
+<li>Right to cancel;</li>
+<li>Statement of the accuracy of the Fund Facts information and the remedy for any error in the information provided by that document.</li>
+</ul>
+</li>
+<li>Finally, the contract states:<ul>
+<li>The contract may be rescinded in writing to the insurance company, at the address it has specified, within two business days after the contract owner receives confirmation of the purchase;</li>
+<li>If the contract is rescinded, the contract owner receives the lesser of the amount invested or the value of the fund on the valuation day following the day the insurer received the request for rescission. Fees or charges are also refunded;</li>
+<li>The contract owner is deemed to receive a confirmation five business days after it has been mailed by the insurer.</li>
+</ul>
+</li>
+<li>A contract may be attached to the application form or may be provided to the investor after the insurer receives the application.</li>
+<li>The purchase is confirmed by the effective date of the contract.</li>
+<li>The effective date is the valuation date following the receipt of the first deposit and when all contract criteria have been satisfied.</li>
+<li>The contract is assigned a unique reference number. This number is used whenever instructions about the contract are conveyed between contract owner and insurer.</li>
+</ul>
+<h2 id="62-investor-requirements">6.2 Investor Requirements<a class="headerlink" href="#62-investor-requirements" title="Permanent link">&para;</a></h2>
+<ul>
+<li>The investor must provide the information needed for the contract to be prepared and help to fill out the application.</li>
+<li>He must be accurate and truthful.</li>
+<li>The agent proceeds on the basis that the investor understands the decision he is making and can appreciate its consequences.</li>
+<li>If the agent is unsure of the client’s ability to understand any part of the contract, the agent should seek advice from his supervisor before proceeding.</li>
+<li>The investor must also fund the account.</li>
+</ul>
+<h3 id="621-application-form">6.2.1 Application form<a class="headerlink" href="#621-application-form" title="Permanent link">&para;</a></h3>
+<ul>
+<li>The application form is completed by the investor and the agent together.</li>
+<li>The investor, who is the applicant, provides the necessary information; the agent records the information on the form itself in its electronic or paper format.</li>
+<li>All information must be recorded correctly and completely.</li>
+<li>The agent may need to explain certain aspects of the form so the investor fully understands his options and his commitment.</li>
+<li>If it appears that the investor does not fully understand an application or any part of the application, the application should not be completed.</li>
+<li>The investor must review all information on the form and correct any inaccuracies.</li>
+<li>Then, the investor and annuitant, if they are not the same person, both sign and date the application. Their signatures confirm their agreement with the information.</li>
+<li>The agent must also provide specific information for the application to be processed.</li>
+<li>An exception is made to the requirement for the contract owner to sign the application when the contract owner is represented by a power of attorney (POA) for property.</li>
+<li>An agent may find a POA appointed for a client who is ill, mentally incapable or absent from the country for a prolonged period of time.</li>
+<li>The individual with the POA can complete and sign the application on behalf of the contract owner. However, he may not have rights to name the beneficiary. A legal opinion should be sought in this circumstance.</li>
+<li>Information must be recorded by the agent carefully since it will become the basis for the contract.</li>
+<li>An incomplete application will be rejected by the insurer.</li>
+<li>At the time the application is made, the reason-why letter is prepared. The reason-why letter is one of the pillars of insurances sales suitability. It proves that the agent has addressed a relevant insurance need or needs by making recommendations to a client, together with the basis for the recommendations, and whether or not the client has accepted or refused those recommendations. The reason-why letter:<ul>
+<li>Confirms facts;</li>
+<li>Verifies the instructions received from the client;</li>
+<li>Identifies the client's needs that the product meets and the needs that will be left uninsured;</li>
+<li>Documents that the sale is suitable;</li>
+<li>Substantiates the client’s understanding of his purchase.</li>
+</ul>
+</li>
+<li>The reason-why letter is not optional. The agent must prepare the letter and review it with the client, and both must keep a copy.</li>
+</ul>
+<h4 id="6211-registered-or-non-registered-form">6.2.1.1 Registered or non-registered form<a class="headerlink" href="#6211-registered-or-non-registered-form" title="Permanent link">&para;</a></h4>
+<ul>
+<li>A segregated fund account can be non-registered or registered.</li>
+<li>Registered accounts are further categorized as locked-in or non-locked-in.</li>
+<li>There may be age restrictions at which certain types of locked-in accounts can be established; however, there are no age restrictions for opening a non-registered account.</li>
+<li>Select the account in which the IVIC investment is made carefully. For example, an investor who wants the tax deferral of a registered account may be financially disadvantaged if the account is set up in a non-registered form.</li>
+<li>A registered account has specific requirements and limitations:<ul>
+<li>The contract owner must provide his Social Insurance Number (SIN) for tax purposes;</li>
+<li>The owner must be the same person as the annuitant;</li>
+<li>Ownership cannot be transferred;</li>
+<li>The contract cannot be used as collateral.</li>
+</ul>
+</li>
+<li>A non-registered account allows:<ul>
+<li>An annuitant who is not the contract owner;</li>
+<li>An owner to be an individual, a group of individuals, or a corporation;</li>
+<li>The contract to be purchased until the date on which the annuitant turns 90;</li>
+<li>Ownership to be transferred;</li>
+<li>The account to be used as collateral for securing a loan by assigning the contract to the lender.</li>
+</ul>
+</li>
+</ul>
+<h4 id="6212-naming-annuitant-and-beneficiary">6.2.1.2 Naming annuitant and beneficiary<a class="headerlink" href="#6212-naming-annuitant-and-beneficiary" title="Permanent link">&para;</a></h4>
+<ul>
+<li>The owner of the contract enjoys the rights of ownership, such as the ability to assign the contract. He names the annuitant and beneficiary to the contract.</li>
+<li>The annuitant is the person on whose life the guarantees are based and whose death triggers payment of the death benefit.</li>
+<li>Once named, the annuitant may not be changed.</li>
+<li>However, in a non-registered contract, prior to the death of the initial annuitant, a joint annuitant may be named to replace him if he dies. The contract continues until the death of the last surviving annuitant, and the death benefit is only paid out at this time.</li>
+<li>The beneficiary receives the benefit of the contract after the death of the last surviving annuitant.</li>
+<li>More than one beneficiary can be named. If this occurs, a percentage of death benefit must be allotted to each beneficiary.</li>
+<li>When a spousal RRSP is set up, the owner and annuitant of the contract is the person who receives the deposits. The person who made the deposits to the plan does not have ownership rights. The recipient of the deposits (as owner) names the beneficiary.</li>
+<li>After a contract owner has died, the insurer may release information about a contract to the beneficiary and the owner’s estate.</li>
+</ul>
+<div class="admonition example">
+<p class="admonition-title">Example</p>
+<p>Jill sets up a spousal RRSP in the name of her husband, Jack, and makes contributions to it. Jack is the owner and annuitant of the plan, and he alone can name its beneficiary.</p>
+</div>
+<h4 id="6213-rider-election-form">6.2.1.3 Rider election form<a class="headerlink" href="#6213-rider-election-form" title="Permanent link">&para;</a></h4>
+<ul>
+<li>The rider election is provided only to those contract owners investing in guaranteed minimum withdrawal benefits (GMWB). It:<ul>
+<li>Provides a payment option (lifetime or to an end-date);</li>
+<li>Offers space to fill in the correct fund codes (must be those that offer the rider);</li>
+<li>Describes minimum initial deposit requirements;</li>
+<li>Gives a choice of payments;</li>
+<li>Instructs on the frequency of payments and how they are made;</li>
+<li>Establishes mandatory authorization by the owner and the agent.</li>
+</ul>
+</li>
+<li>The rider addresses the impact of excess withdrawals from a GMWB because they can significantly reduce the value of the contract.</li>
+</ul>
+<h4 id="6214-client-identification-requirements">6.2.1.4 Client identification requirements<a class="headerlink" href="#6214-client-identification-requirements" title="Permanent link">&para;</a></h4>
+<ul>
+<li>The agent has obligations under the Proceeds of Crime (Money Laundering) and Terrorist Financing Act (PCMLTFA) to:<ul>
+<li>Identify clients;</li>
+<li>Report attempted or completed suspicious transactions;</li>
+<li>Keep records about the client and the transaction if the client is expected to deposit $10,000 or more to the contract over its lifetime.</li>
+</ul>
+</li>
+<li>Determine if the client is acting on instructions from a third party.</li>
+<li>These requirements do not apply when the account is registered.</li>
+<li>Requirements are also specified for the agent if a large cash transaction is made.</li>
+<li>A large cash transaction is a single cash deposit of $10,000 or more, or multiple cash deposits equaling $10,000 or more made in a 24-hour period.</li>
+<li>When an account is opened, reviewed, or a suspicious fact is detected, the agent has to confirm whether the client is a politically exposed foreign person (PEFP), a domestic politically exposed person (PEP), head of an international organization (HIO) or a family member or close associate of one of these people.</li>
+<li>A PEFP is a person who has held a government or judicial position in a foreign country.</li>
+<li>A domestic PEP is a person who holds — or has held within the last five years — a specific office or position in or on behalf of the Canadian federal government, a Canadian provincial government, or a Canadian municipal government. An HIO is the head or chief executive officer of an international organization set up by the governments of more than one country.</li>
+<li>If the client is identified as being high risk, you have specific obligations for the client, his family members, and close associates that apply to record keeping, establishing the source of funds, and obtaining the approval of senior management to keep the account owner.</li>
+<li>FINTRAC has three methods to obtain suitable client identification:<ul>
+<li>Photo identification;</li>
+<li>A credit file; and</li>
+<li>Dual process: two original, valid and current documents or information from independent and reliable sources must be provided.</li>
+</ul>
+</li>
+<li>Corporations and other entities must also supply acceptable identification, such as the corporation’s certificate of corporate status, and the names of directors.</li>
+<li>The agent must be completely confident that the person appearing in the identification papers is the same person making the application. If there is any suspicion that the applicant is acting for a third party, then a form for third party determination must be completed.</li>
+<li>Any suspicious transaction or attempted transaction may be of interest to the Financial Transactions and Reports Analysis Centre of Canada (FINTRAC). Suspicious transactions are a combination of facts, context and money-laundering indicators.<ul>
+<li>Facts are actual events, actions, occurrences or elements that exist or are known to have happened.</li>
+<li>Context is provided through general awareness of events in the client’s business or community, knowledge of typical financial activities, regular know-your-client activities, information based on risk assessments and the background and/or behaviour of a client.</li>
+<li>Indicators are potential red flags that could initiate suspicion or indicate that something may be unusual without a reasonable explanation.</li>
+</ul>
+</li>
+<li>Suspicion itself has three thresholds. The lowest is simple suspicion in which a hunch or gut feeling leads an agent to believe that money laundering or terrorist financing is happening. Next is when there are reasonable grounds to suspect that there is a possibility of money laundering or terrorist financing. The highest threshold is when there are reasonable grounds to believe and support the possibility that money laundering or terrorist financing is occurring.</li>
+<li>An attempted or completed suspicious transaction must be reported to FINTRAC. The agent may wish to first bring the situation to the attention of a supervisor or manager.</li>
+<li>All members of the financial services industry have a responsibility to follow the FINTRAC guidelines in an effort to curtail, with a goal of eliminating, money laundering and terrorist financing.</li>
+</ul>
+<h3 id="622-funding-the-account">6.2.2 Funding the account<a class="headerlink" href="#622-funding-the-account" title="Permanent link">&para;</a></h3>
+<ul>
+<li>A deposit must accompany the application. It can be in the form of:<ul>
+<li>A cheque made payable to the insurer for a lump sum;</li>
+<li>A transfer from another account; or</li>
+<li>By agreement for pre-authorized deposits.</li>
+</ul>
+</li>
+<li>Pre-authorized deposits or debits (PADs) specify the frequency (weekly, bi-weekly, monthly, bi-monthly, quarterly, semi-annually or annually), the date of the first withdrawal from the account and the regular subsequent date for withdrawals.</li>
+<li>Banking information for the institution from which withdrawals will be made and a personalized void cheque or stamped confirmation from the bank must be provided.</li>
+<li>The deposit is allocated to the selected fund or funds.</li>
+<li>If more than one fund is chosen, the contract owner also indicates either the dollar amount of or percentage of deposit he wants to be applied to each fund.</li>
+<li>In some jurisdictions, when locked-in funds representing contributions to a registered pension plan are being transferred, the spouse must give consent to the purchase of the investment.</li>
+<li>The spouse has the option to release his rights to the pension contributions by providing a written waiver form.</li>
+<li>An RRSP, locked-in retirement account (LIRA, also called an LRSP, or locked-in retirement savings plan) contract can accept deposits until the end of the calendar year in which the contract owner turns 71.</li>
+<li>To continue tax deferral, the following conversions can be made:<ul>
+<li>An RRSP to a RRIF;</li>
+<li>A LIRA/LRSP to a life income fund (LIF) or life retirement income fund (LRIF);</li>
+<li>In Saskatchewan and Manitoba, the LIRA/LRSP to a prescribed registered retirement income fund (PRRIF).</li>
+</ul>
+</li>
+<li>If an account must be transferred from one form to another due to attained age, the insurer handles the change.</li>
+<li>The contract owner is set up with the proper account and the same fund.</li>
+<li>There may be a minimum value required to open an account and for different forms of account.</li>
+<li>The investor is informed of the unit value for each deposit.</li>
+<li>The unit value of the fund forms a benchmark against which the future performance is monitored.</li>
+</ul>
+<h2 id="63-agent-requirements">6.3 Agent Requirements<a class="headerlink" href="#63-agent-requirements" title="Permanent link">&para;</a></h2>
+<ul>
+<li>The agent is required to meet expectations of the client and the insurer he represents for pre-sale activities, completion of the application, delivery of documents and post-sale service.</li>
+</ul>
+<h3 id="631-meeting-carrier-expectations">6.3.1 Meeting carrier expectations<a class="headerlink" href="#631-meeting-carrier-expectations" title="Permanent link">&para;</a></h3>
+<ul>
+<li>The agent is expected to meet all expectations of the carrier for the volume of business, client contact, accuracy, and necessary record keeping.</li>
+</ul>
+<h3 id="632-document-delivery">6.3.2 Document delivery<a class="headerlink" href="#632-document-delivery" title="Permanent link">&para;</a></h3>
+<ul>
+<li>The contract must be delivered to the investor in person or through registered mail for the purchase to be completed and the contract issued.</li>
+<li>It includes other specified documents like the information folder, Fund Facts, and contract confirmation.</li>
+<li>If a delivery receipt is part of the package of documents, it must be completed, signed, and witnessed before it is returned to the issuing insurer.</li>
+</ul>
+<h4 id="6321-information-folder">6.3.2.1 Information folder<a class="headerlink" href="#6321-information-folder" title="Permanent link">&para;</a></h4>
+<ul>
+<li>The information folder describes all the features of segregated funds and how they work.</li>
+<li>Specific fund details are provided in Fund Facts, which usually accompany the information folder.</li>
+<li>The purpose of the information folder is to provide brief and plain disclosure of all material facts relating to the IVICs issued by the insurer.</li>
+<li>One information folder is typically issued by the insurer for all the funds it provides, although every fund has a unique identifier code.</li>
+<li>Below is a sample Fund Facts document.</li>
+</ul>
+<h4 id="6322-fund-facts">6.3.2.2 Fund Facts<a class="headerlink" href="#6322-fund-facts" title="Permanent link">&para;</a></h4>
+<ul>
+<li>A Fund Fact sheet is prepared for each fund as of December 31 of the preceding year.</li>
+<li>The details of each fund are presented consistently so that comparisons can be easily made between funds.</li>
+<li>It is essential for the agent to review the Fund Facts for the funds he has recommended with the investor.</li>
+<li>Source: Autorité des marchés financiers. Mutual Fund Facts. An example. [online]. [Consulted August 22, 2019]. <a href="https://lautorite.qc.ca/en/general-public/investments/investment-funds/fund-facts/mutual-funds-facts/">https://lautorite.qc.ca/en/general-public/investments/investment-funds/fund-facts/mutual-funds-facts/</a></li>
+</ul>
+<p><img alt="picture 109" src="https://cdn.jsdelivr.net/gh/dekingtt/statics/images/2022-01-07-06-725.png" /><br />
+<img alt="picture 110" src="https://cdn.jsdelivr.net/gh/dekingtt/statics/images/2022-01-07-06-612.png" /><br />
+<img alt="picture 111" src="https://cdn.jsdelivr.net/gh/dekingtt/statics/images/2022-01-07-06-361.png" /><br />
+<img alt="picture 112" src="https://cdn.jsdelivr.net/gh/dekingtt/statics/images/2022-01-07-06-141.png" /><br />
+<img alt="picture 113" src="https://cdn.jsdelivr.net/gh/dekingtt/statics/images/2022-01-07-06-149.png" /><br />
+<img alt="picture 114" src="https://cdn.jsdelivr.net/gh/dekingtt/statics/images/2022-01-07-06-19.png" /><br />
+<img alt="picture 115" src="https://cdn.jsdelivr.net/gh/dekingtt/statics/images/2022-01-07-06-303.png" /><br />
+<img alt="picture 116" src="https://cdn.jsdelivr.net/gh/dekingtt/statics/images/2022-01-07-06-804.png" />  </p>
+<h4 id="6323-confirmation">6.3.2.3 Confirmation<a class="headerlink" href="#6323-confirmation" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Confirmation is required to:<ul>
+<li>Finalize purchase;</li>
+<li>Switch funds;</li>
+<li>Reset;</li>
+<li>Withdraw money from the contract;</li>
+<li>Terminate the contract.</li>
+</ul>
+</li>
+<li>Confirmation may be provided to the investor electronically or in writing.</li>
+<li>Instructions provided verbally are as binding as if they were written.</li>
+</ul>
+<h3 id="633-ongoing-service-requirements">6.3.3 Ongoing service requirements<a class="headerlink" href="#633-ongoing-service-requirements" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Sales activity for a segregated fund contract does not end with the purchase of the contract. It includes providing the following services:<ul>
+<li>Post-sale follow-up;</li>
+<li>Monitoring the client;</li>
+<li>Monitoring the product;</li>
+<li>Annual client review;</li>
+<li>Handling deposits;</li>
+<li>Making fund switches when necessary;</li>
+<li>Resets;</li>
+<li>Changing the beneficiary designation;</li>
+<li>Renewing a contract.</li>
+</ul>
+</li>
+</ul>
+<h4 id="6331-post-sale-follow-up">6.3.3.1 Post-sale follow up<a class="headerlink" href="#6331-post-sale-follow-up" title="Permanent link">&para;</a></h4>
+<ul>
+<li>The agent should follow up with the client once the sales process is completed to ensure his satisfaction with the product and to answer any questions.</li>
+</ul>
+<h4 id="6332-need-to-monitor-client">6.3.3.2 Need to monitor client<a class="headerlink" href="#6332-need-to-monitor-client" title="Permanent link">&para;</a></h4>
+<ul>
+<li>The client must notify the agent or insurer of changes to his personal situation that might affect the contract.</li>
+</ul>
+<h4 id="6333-need-to-monitor-product">6.3.3.3 Need to monitor product<a class="headerlink" href="#6333-need-to-monitor-product" title="Permanent link">&para;</a></h4>
+<ul>
+<li>New segregated funds are introduced; others are combined, and others discontinued.</li>
+<li>Agents need to know their products and keep on top of changes, such as a change in the management expense ratio (MER).</li>
+<li>Significant changes to a fund should be communicated to the client immediately. This is usually done by the insurer rather than the agent.</li>
+</ul>
+<h4 id="6334-annual-review">6.3.3.4 Annual review<a class="headerlink" href="#6334-annual-review" title="Permanent link">&para;</a></h4>
+<ul>
+<li>At a minimum, the agent should meet with the client once a year to review the selected investment and its performance.</li>
+<li>He should check with the client as to whether there are changes in his personal situation of which he should be aware.</li>
+<li>This is also a time to ensure the investor is aware of any significant changes that have occurred in the fund if applicable.</li>
+</ul>
+<h4 id="6335-handling-deposits">6.3.3.5 Handling deposits<a class="headerlink" href="#6335-handling-deposits" title="Permanent link">&para;</a></h4>
+<ul>
+<li>When a cheque accompanies the application, it must be handled securely and immediately sent to the insurer.</li>
+<li>The cheque should show the contract number to which the payment is to be applied.</li>
+</ul>
+<h4 id="6336-making-a-fund-switch">6.3.3.6 Making a fund switch<a class="headerlink" href="#6336-making-a-fund-switch" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Fund switches may be scheduled or unscheduled.</li>
+<li>An unscheduled switch is made by request to the agent or insurer.</li>
+<li>The switch may be requested because the investor wishes to rebalance the account or is dissatisfied with fund performance.</li>
+<li>A minimum amount is required for the switch and the minimum balance for the fund must be met.</li>
+<li>Each insurer provides a number of switches a year for free. A withdrawal fee may be charged when switches exceed this limit.</li>
+<li>It is also possible for a switch to act as a reset that changes both the maturity date of the contract and contract guarantees.</li>
+<li>If units are switched within 90 days of purchase, a short-term trading fee may be charged, or the switch may not be permitted.</li>
+<li>A short-term trading fee is a charge against the value of the fund (e.g., 2%. Information about the amount of the fee is disclosed in Fund Facts).</li>
+<li>A scheduled switch is one set up on a regular basis, usually monthly or quarterly.</li>
+<li>There is no need for the client to make the switch request.</li>
+<li>Fees are not charged when switches are scheduled.</li>
+<li>However, the insurer can cancel the switches or redirect switched funds. If this occurs, the investor will be notified in advance and provided with options for the future.</li>
+<li>A capital gain or loss can be incurred by a switch to the extent the amount switched exceeds or is lower than the adjusted cost base of the units.</li>
+</ul>
+<h4 id="6337-resets">6.3.3.7 Resets<a class="headerlink" href="#6337-resets" title="Permanent link">&para;</a></h4>
+<ul>
+<li>A reset can be scheduled or unscheduled.</li>
+<li>Not all funds allow reset.</li>
+<li>When a reset is completed, the maturity date of the contract resets. For ten-year contracts, the new maturity date will be ten years from the reset date.</li>
+<li>Some insurers limit the age of the investor (or annuitant) at which a reset can be made (i.e., age 80).</li>
+<li>An unscheduled reset is used by an investor to lock in a gain when he sees the value of his units has increased.</li>
+<li>The number of resets per year may be limited by the insurer. It is best to try to achieve steady modest gains from resets.</li>
+<li>A scheduled, or automatic, reset may be restricted to the schedule set by the insurer, such as twice per year. The reset occurs only if the market value of the investment is higher than the unit’s deposit value.</li>
+</ul>
+<h4 id="6338-change-of-beneficiary">6.3.3.8 Change of beneficiary<a class="headerlink" href="#6338-change-of-beneficiary" title="Permanent link">&para;</a></h4>
+<ul>
+<li>It may be necessary to change the beneficiary if, for instance, the beneficiary dies or the contract owner decides a new beneficiary is in order.</li>
+<li>This can be done at any time by the contract owner providing the beneficiary designation is not irrevocable.</li>
+<li>An irrevocable beneficiary can be changed if the beneficiary consents.</li>
+<li>A revocable beneficiary can be changed by the contract owner at any time in a written request to the insurer or by completing a change of beneficiary form.</li>
+</ul>
+<h4 id="6339-renewing-a-contract">6.3.3.9 Renewing a contract<a class="headerlink" href="#6339-renewing-a-contract" title="Permanent link">&para;</a></h4>
+<ul>
+<li>At the ten-year maturity of the contract, its value may be taken as cash or in the form of an annuity, or renewed for another period.</li>
+<li>When a contract is renewed, a new guarantee period begins.</li>
+<li>The new maturity date depends on the age of the annuitant when the contract is renewed.</li>
+<li>The deposit to the renewal contract is the market value of the original contract at maturity or the maturity guarantee value if it is higher than the market value.</li>
+<li>The death benefit guarantee continues.</li>
+</ul>
+<h2 id="64-claims">6.4 Claims<a class="headerlink" href="#64-claims" title="Permanent link">&para;</a></h2>
+<ul>
+<li>A claim can be made:<ul>
+<li>By the contract owner for withdrawal, surrender and on maturity;</li>
+<li>By a beneficiary or an estate trustee (or equivalent) at death;</li>
+<li>By the person in control of the contract, when a POA for property is invoked, for withdrawal, surrender, and maturity.</li>
+</ul>
+</li>
+<li>Once a claim is made, the claim is assessed for the value to be paid out. The actual payout is determined by the contract value minus any withdrawals and outstanding charges and fees.</li>
+</ul>
+<h3 id="641-claims-process">6.4.1 Claims process<a class="headerlink" href="#641-claims-process" title="Permanent link">&para;</a></h3>
+<ul>
+<li>The process for claims does not have to involve the agent since forms can be ordered directly from the insurer.</li>
+</ul>
+<h4 id="6411-claim-forms">6.4.1.1 Claim forms<a class="headerlink" href="#6411-claim-forms" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Both withdrawal and death benefit claim forms can be ordered directly from the insurer.</li>
+<li>They must be returned completed and signed with any attachments and information the insurer specifies.</li>
+<li>Once forms are submitted, an insurance representative specializing in claims takes over handling the claim and issuing a cheque or cheques, or ensuring funds are transferred as requested.</li>
+</ul>
+<h4 id="6421-maturity-claims-and-death-claims">6.4.2.1 Maturity claims and death claims<a class="headerlink" href="#6421-maturity-claims-and-death-claims" title="Permanent link">&para;</a></h4>
+<ul>
+<li>The maturity guarantee is claimed when the contract has matured by the contract owner or person acting as POA for property.</li>
+<li>The death benefit guarantee is paid at the death of the annuitant to the beneficiary.</li>
+<li>Both guarantee amounts are contractually obligated as a percentage of deposits, adjusted upward by any resets and adjusted downward by any withdrawals from the contract.</li>
+<li>If the market value of the account is not equivalent to the guarantee, the insurer will step in and contribute a sum equal to the difference between market value and guarantee.</li>
+<li>The declaration of death is made by the beneficiary or estate trustee, who may be an executor, administrator, or liquidator (in Québec).</li>
+<li>The contract number is provided in addition to the signature of the claimant and the agent’s name, and number.</li>
+<li>Proof of death or the Attending Physician’s Statement (APS) is required.</li>
+<li>The death claim must be accompanied by an original death certificate. Additional documents may be required especially if the death occurs outside the country.</li>
+</ul>
+<h4 id="6422-termination-and-surrender-claims">6.4.2.2 Termination and surrender claims<a class="headerlink" href="#6422-termination-and-surrender-claims" title="Permanent link">&para;</a></h4>
+<ul>
+<li>Termination occurs at contract maturity; surrender occurs before the contract has matured.</li>
+<li>Both activities constitute a claim and end the contract.</li>
+<li>The contract owner at termination may choose to receive the value of the contract in cash, to buy an annuity or another option provided by the insurer.</li>
+<li>Locked-in accounts may be restricted as to whether the cash can be received and their value may have to be transferred to another locked-in account depending on the legislation of the province that applies to the funds.</li>
+</ul>
+<h4 id="6423-withdrawal-form">6.4.2.3 Withdrawal form<a class="headerlink" href="#6423-withdrawal-form" title="Permanent link">&para;</a></h4>
+<ul>
+<li>The request for a withdrawal is initiated by the contract owner.</li>
+<li>The withdrawal form is used to both close the contract by withdrawing the total value of the account and to make a partial withdrawal.</li>
+<li>The form requires:<ul>
+<li>Contract owner information;</li>
+<li>Identification of contract type;</li>
+<li>Selection of withdrawal options;</li>
+<li>Selection of form of payment (i.e., cheque, direct deposit, or transfer to another product or institution);</li>
+<li>Instructions to set up a scheduled withdrawal plan (SWP), for instance, when payments from a RRIF must begin;</li>
+<li>Fund (identified by its number) from which the withdrawal is to be made;</li>
+<li>Specified amount to be withdrawn;</li>
+<li>Signature of contract owner and irrevocable beneficiary if one exists;</li>
+<li>Signature of the agent with a date.</li>
+</ul>
+</li>
+<li>Withdrawal options cover many circumstances beyond a partial or full withdrawal. The contract owner can also choose to:<ul>
+<li>Set up or change a scheduled payment plan;</li>
+<li>Change the amount or date of scheduled payments;</li>
+<li>Change the allocation of scheduled payments;</li>
+<li>Change the banking information for scheduled payments;</li>
+<li>Stop scheduled payments.</li>
+</ul>
+</li>
+<li>A minimum annual withdrawal is required when the contract is a RRIF.</li>
+<li>When the contract is a LIF or a restricted life income fund (RLIF), it must be more than the annual minimum and less than the annual maximum.</li>
+</ul>
+<h4 id="6424-power-of-attorney-poa-claim">6.4.2.4 Power of attorney (POA) claim<a class="headerlink" href="#6424-power-of-attorney-poa-claim" title="Permanent link">&para;</a></h4>
+<ul>
+<li>A power of attorney (POA) for property document appoints another person to act as a substitute decision-maker for all matters pertaining to the contract owner's property when the contract owner is unable to do so.</li>
+<li>The instructions for withdrawals or surrender made by the person with POA for property must be respected, and acted upon as if he was the contract owner.</li>
+</ul>
+<h3 id="643-factors-affecting-claims">6.4.3 Factors affecting claims<a class="headerlink" href="#643-factors-affecting-claims" title="Permanent link">&para;</a></h3>
+<ul>
+<li>The amount received in a claim may not be the amount anticipated by the contract owner.</li>
+<li>He must fully understand the effect of withdrawals, sales charges, guarantees, and allocations.</li>
+</ul>
+<h4 id="6431-maturity-and-death-benefit-guarantee">6.4.3.1 Maturity and death benefit guarantee<a class="headerlink" href="#6431-maturity-and-death-benefit-guarantee" title="Permanent link">&para;</a></h4>
+<ul>
+<li>The amount received at maturity or death can exceed the guaranteed amount when the market value of the contract is higher than the guarantee.</li>
+<li>If withdrawals are made from the contract, guarantees are adjusted downward in proportion to the account balance.</li>
+<li>The timing of the maturity guarantee can also be affected when reset is used.</li>
+</ul>
+<h4 id="6432-allocations">6.4.3.2 Allocations<a class="headerlink" href="#6432-allocations" title="Permanent link">&para;</a></h4>
+<ul>
+<li>When a segregated fund generates interest, dividends, or capital gains that income remains in the fund and is reflected in its unit value.</li>
+<li>This investment income and these capital gains or losses are allocated to investors annually. Note that an allocation attributes capital gains/losses; they are not received by the investor as cash.</li>
+<li>An allocation increases or decreases the adjusted cost base (ACB) of a non-registered investment.</li>
+<li>Consequently, this income is not taxed again upon withdrawal.</li>
+</ul>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Footer">
+      
+        
+        <a href="../Chapter_5_Segregated_Funds_and_Annuity/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Chapter 5 Segregated Funds and Annuity" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Chapter 5 Segregated Funds and Annuity
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../Chapter_7_Annuity_Contract/" class="md-footer__link md-footer__link--next" aria-label="Next: Chapter 7 Annuity Contract" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Chapter 7 Annuity Contract
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2016 - 2021
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.annotate", "navigation.indexes", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.c7dec7e7.min.js"}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.da79ceb7.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@8.13.5/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
